@@ -11,8 +11,17 @@ body {
 
 }
 
+#decor {
+    text-decoration: underline;
+    
+}
+
+
+
+
 .estilo1 {
     background-color: rgb(118, 196, 148);
+    font-style: oblique;
 
 }
 
