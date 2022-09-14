@@ -8,6 +8,7 @@ body {
 h1 {
     font-size: 65px;
     color: orange; 
+    font-family: monospace, sans-serif;
 }
 
 #lista {
