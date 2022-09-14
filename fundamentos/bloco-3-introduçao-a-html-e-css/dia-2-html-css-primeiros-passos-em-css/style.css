@@ -40,6 +40,8 @@ h1 {
 }
 
 .titulos {
-
-    
+font-family: monospace;
+font-size: 15px;
+text-shadow: 2px 2px 5px blue;
+line-height: 1cm;
 }
