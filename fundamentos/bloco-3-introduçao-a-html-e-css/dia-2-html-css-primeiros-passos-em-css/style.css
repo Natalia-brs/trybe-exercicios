@@ -6,23 +6,23 @@ body {
     font-size: 16px;
 }
 
+
+h1 {
+    font-size: 45px;
+    color: orange; 
+    font-family: monospace, sans-serif; 
+}
+
+
 #lista {
     color: rgb(56, 134, 134);
+    text-shadow: 2px 2px 5px black;
 
 }
 
 #decor {
     text-decoration: underline;
     
-}
-
-
-
-
-.estilo1 {
-    background-color: rgb(118, 196, 148);
-    font-style: oblique;
-
 }
 
 #albuns {
@@ -34,8 +34,12 @@ body {
     font-weight: 600;
 }
 
-h1 {
-    font-size: 45px;
-    color: orange; 
-    font-family: monospace, sans-serif; 
+.estilo1 {
+    background-color: rgb(118, 196, 148);
+    font-style: oblique;
+}
+
+.titulos {
+
+    
 }
