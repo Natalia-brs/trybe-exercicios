@@ -1,3 +1,10 @@
+
+
+
+body {
+    background-color: aliceblue;
+}
+
 h1 {
     font-size: 65px;
     color: orange; 
@@ -5,9 +12,13 @@ h1 {
 
 #lista {
     color: rgb(56, 134, 134);
+
 }
 
 #albuns {
-    background-color: antiquewhite;
+    background-color: rgb(247, 245, 242);
+}
 
+.estilo1 {
+    background-color: rgb(201, 201, 134);
 }
