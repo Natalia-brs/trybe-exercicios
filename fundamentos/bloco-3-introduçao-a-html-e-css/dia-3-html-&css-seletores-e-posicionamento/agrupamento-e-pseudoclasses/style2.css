@@ -1,0 +1,10 @@
+div {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+
+div:hover {
+    border: 2px solid black;
+
+}
