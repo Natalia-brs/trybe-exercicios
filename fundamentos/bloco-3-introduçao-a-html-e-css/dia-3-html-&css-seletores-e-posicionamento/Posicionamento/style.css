@@ -2,14 +2,14 @@
     width: 200px;
     position: absolute;
     right: 950px;
-    
+    top: 190px;
   }
   
   .goomba {
     width: 100px;
     position: absolute;
     z-index: 2;
-    top: 390px;
+    top: 490px;
     right: 1000px
   }
   
@@ -27,6 +27,7 @@
     left: 600px;
     z-index: 2;
     top: 150px;
+    background-color: aqua;
   }
   
   .bowser {
@@ -34,4 +35,11 @@
     position: absolute;
     width: 200px;
     right: 240px
+  }
+
+  .title {
+    position: absolute;
+    right: 550px;
+
+
   }
