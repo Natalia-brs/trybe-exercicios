@@ -1,0 +1,62 @@
+ol li {
+    background-color: yellow;
+    
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color: red;
+}
+
+ li {
+    font-size: 20px;
+    
+ }
+
+ h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+ }
+
+li em {
+    font-weight: bold;
+}
+
+.itens {
+    color: blue;
+}
+   
+* .java {
+    background-color: pink;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.tema1:hover {
+    color: orange;
+}
+
+.tema2:hover {
+    color:  green;
+}
+ .tema3:hover {
+    color: black;
+ }
+
+ .tema4:hover {
+    color: yellow;
+ }
+
+ .tema5:hover {
+    color: green;
+ }
+ 
