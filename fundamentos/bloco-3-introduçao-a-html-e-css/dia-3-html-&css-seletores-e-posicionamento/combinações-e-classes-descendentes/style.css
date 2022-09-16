@@ -28,3 +28,35 @@ h1, h3 {
 li em {
     font-weight: bold;
 }
+
+.itens {
+    color: blue;
+}
+   
+* .java {
+    background-color: pink;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.tema1:hover {
+    color: orange;
+}
+
+.tema2:hover {
+    color:  green;
+}
+ .tema3:hover {
+    color: black;
+ }
+
+ .tema4:hover {
+    color: yellow;
+ }
+
+ .tema5:hover {
+    color: green;
+ }
+ 
