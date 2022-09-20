@@ -4,15 +4,24 @@
     border: 0;
  }
  
-.table tr th {
+.table,  th {
     border: 2px solid black; 
     padding: 4px;
+    
+    
 }
 
-.table tr td {
-    border: 2px solid black; 
-    text-align: center;
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+.table  td {
+    border: 2px solid black; 
+    text-align: center; 
+}
+
 
 .nav-style li {
    display: inline-block;
@@ -41,4 +50,12 @@
 .head-section {
     text-align: center;
     padding: 15px;
+}
+
+.main-section {
+    text-align: center;
+    color: rgb(167, 64, 64);
+    padding: 35px;
+    line-height: 28px;
+    
 }
