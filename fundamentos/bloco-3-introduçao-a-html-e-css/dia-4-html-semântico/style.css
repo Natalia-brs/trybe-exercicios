@@ -95,10 +95,12 @@
 
  .aside-position1 {
     position: absolute;
-    background-color: orange;
+   
     margin-left: 950px;
     top: 900px;
     height: 500px; 
+    width: 440px;
+    
  }
 
 .aside-position2 {
@@ -108,4 +110,19 @@
     height: 500px;
     top: 1500px;
     width: 270px;
+}
+
+.video1 {
+     padding-bottom: 20px;
+    list-style: none;
+   
+   
+    margin-right: 60px;
+}
+
+#video-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(167, 64, 64);
+
 }
