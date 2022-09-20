@@ -13,3 +13,32 @@
     border: 2px solid black; 
     text-align: center;
 }
+
+.nav-style li {
+   display: inline-block;
+   padding: 10px;
+   margin-left: 45px;
+   background-image: url("../dia-4-html-semântico/fotos/black-cover.jpeg");
+   color: white;
+   font-weight: bold;
+   width: 300px;
+   border-radius: 15px  15px;
+   box-shadow: px  black;
+}
+
+.nav-style li:hover {
+    color: aqua;
+}
+
+.head-title {
+    background-image: url("../dia-4-html-semântico/fotos/Head-cover.jpeg");
+    text-align: center;
+    padding-top: 75px;
+    color: whitesmoke;
+    height: 150px;
+}
+
+.head-section {
+    text-align: center;
+    padding: 15px;
+}
