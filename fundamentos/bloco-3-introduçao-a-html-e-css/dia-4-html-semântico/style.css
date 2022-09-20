@@ -1,0 +1,143 @@
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+ 
+.table,  th {
+    border: 2px solid black; 
+    padding: 4px;
+    
+    
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.table  td {
+    border: 2px solid black; 
+    text-align: center; 
+}
+
+
+.nav-style li {
+   display: inline-block;
+   padding: 10px;
+   margin-left: 45px;
+   background-image: url("../dia-4-html-semântico/fotos/black-cover.jpeg");
+   color: white;
+   font-weight: bold;
+   width: 300px;
+   border-radius: 15px  15px;
+   box-shadow: px  black;
+}
+
+.nav-style li:hover {
+    color: aqua;
+}
+
+.head-title {
+    background-image: url("../dia-4-html-semântico/fotos/Head-cover.jpeg");
+    text-align: center;
+    padding-top: 75px;
+    color: whitesmoke;
+    height: 150px;
+    width: 1500px;
+}
+
+.head-section {
+    text-align: center;
+    padding: 15px;
+}
+
+.main-section {
+    text-align: center;
+    color: rgb(167, 64, 64);
+    padding: 35px;
+    line-height: 28px;
+    
+}
+
+.article1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.article2 {
+    text-align: left;
+    padding: 50px;
+    width: 800px;
+    
+    
+}
+ .images  {
+   width: 350px;
+   padding: 25px;
+   border: 2px solid black;
+   margin-top: 30px;
+   margin-left: 14px;
+ }
+
+ .size {
+    width: 310px;
+ }
+
+
+ .final-image {
+    width: 350px;
+    padding: 35px;
+    margin-left: 250px;
+    margin-top: 45px;
+    border: 2px solid black;
+ }
+
+ .aside-position1 {
+    position: absolute;
+   
+    margin-left: 950px;
+    top: 900px;
+    height: 500px; 
+    width: 440px;
+    
+ }
+
+.aside-position2 {
+    position: absolute;
+   
+    margin-left: 950px;
+    height: 500px;
+    top: 1500px;
+    width: 270px;
+}
+
+.video1 {
+     padding-bottom: 20px;
+    list-style: none;
+   
+   
+    margin-right: 60px;
+}
+
+.p-list {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(167, 64, 64);
+
+}
+
+.list-bibliograph li {
+    list-style: none;  
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.footer {
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    
+    }
