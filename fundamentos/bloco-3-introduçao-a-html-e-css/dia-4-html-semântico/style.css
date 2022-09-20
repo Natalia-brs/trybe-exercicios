@@ -66,13 +66,16 @@
 }
 
 .article2 {
-    text-align: justify;
+    text-align: left;
     padding: 50px;
+    width: 800px;
+    
 }
  .images  {
    width: 350px;
    padding: 25px;
    border: 2px solid black;
+   margin-top: 30px;
  }
 
  .size {
