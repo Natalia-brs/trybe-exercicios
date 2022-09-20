@@ -59,3 +59,22 @@
     line-height: 28px;
     
 }
+
+.article1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.article2 {
+    text-align: justify;
+    padding: 50px;
+}
+ .images  {
+   width: 350px;
+   padding: 25px;
+   border: 2px solid black;
+ }
+
+ .size {
+    width: 310px;
+ }
