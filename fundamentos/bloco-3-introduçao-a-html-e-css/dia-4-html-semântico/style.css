@@ -69,6 +69,7 @@
     text-align: left;
     padding: 50px;
     width: 800px;
+    background-color: orange;
     
 }
  .images  {
@@ -76,8 +77,27 @@
    padding: 25px;
    border: 2px solid black;
    margin-top: 30px;
+   margin-left: 14px;
  }
 
  .size {
     width: 310px;
+ }
+
+
+ .final-image {
+    width: 350px;
+    padding: 35px;
+    margin-left: 250px;
+    margin-top: 45px;
+    border: 2px solid black;
+ }
+
+ .aside {
+    position: absolute;
+    background-color: orange;
+    margin-left: 950px;
+    top: 900px;
+    height: 500px; 
+    
  }
