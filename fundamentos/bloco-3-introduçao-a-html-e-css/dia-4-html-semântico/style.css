@@ -45,6 +45,7 @@
     padding-top: 75px;
     color: whitesmoke;
     height: 150px;
+    width: 1500px;
 }
 
 .head-section {
@@ -69,7 +70,7 @@
     text-align: left;
     padding: 50px;
     width: 800px;
-    background-color: orange;
+    
     
 }
  .images  {
@@ -105,7 +106,7 @@
 
 .aside-position2 {
     position: absolute;
-    background-color: orange;
+   
     margin-left: 950px;
     height: 500px;
     top: 1500px;
@@ -120,9 +121,23 @@
     margin-right: 60px;
 }
 
-#video-title {
+.p-list {
     font-size: 25px;
     margin-bottom: 25px;
     color: rgb(167, 64, 64);
 
 }
+
+.list-bibliograph li {
+    list-style: none;  
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.footer {
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    
+    }
