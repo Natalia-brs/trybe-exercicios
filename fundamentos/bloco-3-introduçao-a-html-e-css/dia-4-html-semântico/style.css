@@ -93,11 +93,19 @@
     border: 2px solid black;
  }
 
- .aside {
+ .aside-position1 {
     position: absolute;
     background-color: orange;
     margin-left: 950px;
     top: 900px;
     height: 500px; 
-    
  }
+
+.aside-position2 {
+    position: absolute;
+    background-color: orange;
+    margin-left: 950px;
+    height: 500px;
+    top: 1500px;
+    width: 270px;
+}
