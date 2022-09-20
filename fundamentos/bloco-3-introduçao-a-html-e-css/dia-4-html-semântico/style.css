@@ -1,0 +1,13 @@
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+ 
+.table tr th {
+    border: 2px solid black; 
+}
+
+.table tr td {
+    border: 2px solid black; 
+}
