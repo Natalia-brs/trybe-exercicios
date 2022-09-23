@@ -1,10 +1,10 @@
-// const base = 5;
-// let height = 8;
+ const base = 5;
+ let height = 8;
 
-// const area = base * height;
-// const perimeter = area + base + height;
+ const area = base * height;
+ const perimeter = area + base + height;
 
-// console.log (area, perimeter);
+ console.log (area, perimeter);
 
 //  const currentHour = 15.00;
 //  let message = '';
