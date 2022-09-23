@@ -1,5 +1,5 @@
+//-------------- Exercicio switch-case --------------//
 let state = 'Aprovada';
-
 switch (state) {
     case 'Aprovada':
       console.log ('Parabens, voce foi aprovado (a)');
@@ -13,3 +13,4 @@ switch (state) {
     default:
       console.log ('não se aplica');     
 }
+//-----------------------------------------------------//
