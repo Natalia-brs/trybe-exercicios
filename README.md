@@ -26,5 +26,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-1: _Estruturas de páginas_
 - [X] 3-2: _Primeiros passos em css_
 - [x] 3-3: _Seletores e posicionamento_
-- [ ] 3-4: _HTML Semâtico_
-- [ ] 3-5: _Projeto - Lessons Learned_
+- [x] 3-4: _HTML Semâtico_
+- [x] 3-5: _Projeto - Lessons Learned_
