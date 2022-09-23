@@ -1,14 +1,14 @@
-// Exercicio fatorial
-
+// -------- Exercicio fatorial ------------------- //
  let fatorial = 1;
 
  for (let index = 5; index > 0; index -= 1) {
      fatorial = fatorial * index
    }
    console.log (fatorial);
+// ----------------------------------------------------//
 
-// inverter palavra
 
+// ------------ inverter palavra ----------------------//
  let word = 'narnia'
  let palavraReversa = '';
 
@@ -16,9 +16,10 @@
      palavraReversa = palavraReversa + word[index];
    }
  console.log (palavraReversa);
+//-------------------------------------------------------//
 
-// Maior e menor palavra do array 
 
+//--------- Maior e menor palavra do array ---------------//
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 
 let palavraMaior = array[0];
@@ -38,3 +39,4 @@ for (let index = 0; index < array.length; index += 1) {
 
 console.log (palavraMaior);
 console.log (palavraMenor);
+//---------------------------------------------------------//

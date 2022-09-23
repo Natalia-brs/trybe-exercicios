@@ -1,5 +1,6 @@
-const note = 90;
 
+// ---------Exercicio condição if-else -------//
+const note = 90;
 if (note >= 80) {
     console.log ('Parabéns, você foi aprovada(o)!');
 }
@@ -9,4 +10,5 @@ else if (note < 80 && note >= 60) {
 else {
     console.log ('Você foi reprovada(O)');
 }
+//-----------------------------------------------//
  
