@@ -1,26 +1,26 @@
 .central {
-    text-align: center;
+  text-align: center;
 }
 
 li:hover {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 li:active {
-    color: brown;
+  color: brown;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    width: 200px;
-    padding: 20px;
-    border: 2px solid black;
-    margin: 20px;
+  width: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 20px;
 }
   
 ol, ul {
-    list-style: none;
+  list-style: none;
 }

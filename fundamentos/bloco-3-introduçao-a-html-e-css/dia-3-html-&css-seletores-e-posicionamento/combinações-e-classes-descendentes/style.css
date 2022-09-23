@@ -1,62 +1,62 @@
 ol li {
-    background-color: yellow;
+  background-color: yellow;
     
 }
 
 ol li:nth-child(even) {
-    color: green;
+  color: green;
 }
 
 ol li:nth-child(odd) {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h1, h3 {
-    color: red;
+  color: red;
 }
 
  li {
-    font-size: 20px;
+  font-size: 20px;
     
  }
 
  h1 em {
-    font-size: 40px;
-    border: 1px solid black;
+  font-size: 40px;
+  border: 1px solid black;
  }
 
 li em {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .itens {
-    color: blue;
+  color: blue;
 }
    
 * .java {
-    background-color: pink;
+  background-color: pink;
 }
 
 ul li a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .tema1:hover {
-    color: orange;
+  color: orange;
 }
 
 .tema2:hover {
-    color:  green;
+  color:  green;
 }
  .tema3:hover {
-    color: black;
+  color: black;
  }
 
  .tema4:hover {
-    color: yellow;
+  color: yellow;
  }
 
  .tema5:hover {
-    color: green;
+  color: green;
  }
  

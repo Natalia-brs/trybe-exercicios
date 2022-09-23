@@ -1,3 +1,4 @@
+//----Exercicios variaveis ---------------//
 let myName = 'Natalia';
 let birthCity = 'Piracicaba/SP';
 let birthYear = 1994;
@@ -9,3 +10,4 @@ const cidadeNasc = 'Piracicaba/SP';
 const anoNasc = 1994;
 
 console.log(meuNome, cidadeNasc, anoNasc);
+//---------------------------------------------//
