@@ -9,4 +9,7 @@ let player = {
     },
 };
 
-console.log (player.name + ' ' + player.lastName);
+console.log (player.name + ' ' + player.lastName); // pode se acessar os elementos utlizando .
+console.log (player ['name'] + " " + player['lastName']) // pou pode acessar os elementos utilizando []
+console.log (player.medals.golden)
+console.log (player)
