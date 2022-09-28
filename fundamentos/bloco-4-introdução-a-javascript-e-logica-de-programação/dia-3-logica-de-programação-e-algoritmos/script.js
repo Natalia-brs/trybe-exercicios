@@ -40,3 +40,4 @@ for (let index = 0; index < array.length; index += 1) {
 console.log (palavraMaior);
 console.log (palavraMenor);
 //---------------------------------------------------------//
+
