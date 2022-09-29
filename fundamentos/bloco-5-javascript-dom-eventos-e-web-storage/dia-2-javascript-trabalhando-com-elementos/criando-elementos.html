@@ -21,6 +21,23 @@
         </section>
 
         <script>
+        let fatherSection = document.getElementById ('pai');
+        let brother = document.createElement ('section');
+         brother.id = 'NovoFIlho';
+         fatherSection.appendChild(brother);
+
+         let ondeVoceEsta = document.getElementById ('elementoOndeVoceEsta');
+         let filhoElementoOndeVoceEsta = document.createElement('p');
+         filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+         ondeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+
+         let primeiroFilhoDoFIlho = document.getElementById('primeiroFilhoDoFilho');
+         let filho = document.createElement('span');
+         filho.id = 'filho';
+         primeiroFilhoDoFIlho.appendChild (filho);
+
+         let terceiroFilho =  document.getElementById('filho').parentNode.parentNode.parentNode.lastElementChild.previousElementSibling.previousElementSibling
 
         </script>
 
