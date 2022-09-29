@@ -7,7 +7,7 @@
     <title>Criando Elementos</title>
 </head>
 <body>
-    
+    //--------------------------------------- Exercicios - Criando Elementos ---------------------------------------------------//
     <main id="paiDoPai">
         <section id="pai">
           <section id="primeiroFilho"></section>
@@ -21,24 +21,39 @@
         </section>
 
         <script>
+         //-----------Crie um irmão para elementoOndeVoceEsta---------//
+
         let fatherSection = document.getElementById ('pai');
         let brother = document.createElement ('section');
          brother.id = 'NovoFIlho';
          fatherSection.appendChild(brother);
+
+         //-----------------------------------------------------------//
+
+         //-----------Crie um filho para elementoOndeVoceEsta-----------------//
 
          let ondeVoceEsta = document.getElementById ('elementoOndeVoceEsta');
          let filhoElementoOndeVoceEsta = document.createElement('p');
          filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
          ondeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
 
+         //-------------------------------------------------------------------//
+
+        //-----------Crie um filho para primeiroFilhoDoFilho-----------------------//
 
          let primeiroFilhoDoFIlho = document.getElementById('primeiroFilhoDoFilho');
          let filho = document.createElement('span');
          filho.id = 'filho';
          primeiroFilhoDoFIlho.appendChild (filho);
 
-         let terceiroFilho =  document.getElementById('filho').parentNode.parentNode.parentNode.lastElementChild.previousElementSibling.previousElementSibling
+         //------------------------------------------------------------------------//
 
+
+         //----------------A partir desse filho criado, acesse terceiroFilho-----------------------------------------------------------------------------------//
+
+         let terceiroFilho =  document.getElementById('filho').parentNode.parentNode.parentNode.lastElementChild.previousElementSibling.previousElementSibling
+          
+         //----------------------------------------------------------------------------------------------------------------------------------------------------//
         </script>
 
       </main>
