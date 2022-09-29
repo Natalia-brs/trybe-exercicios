@@ -57,7 +57,25 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      
+      let creatH1 = document.createElement('h1');
+      creatH1.innerText = 'Exercicio - JavaScript DOM'
+      document.body.appendChild(creatH1)
+    
+     let creatMain = document.createElement('main');
+     creatMain.className = 'main-content';
+     document.body.appendChild(creatMain);
+
+    
+     let creatSection = document.createElement('section');
+     creatSection.className = 'center-content';
+     creatMain.appendChild(creatSection);
+
+     let creatP = document.createElement ('p');
+     creatP.innerText = 'Billie Eilish é muito bom';
+     creatSection.appendChild(creatP);
+
+
     </script>
   </body>
 </html>
