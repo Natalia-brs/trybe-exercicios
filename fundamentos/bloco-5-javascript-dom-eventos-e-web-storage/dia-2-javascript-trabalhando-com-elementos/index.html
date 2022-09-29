@@ -1,12 +1,71 @@
-<main id="paiDoPai">
-    <section id="pai">
-      <section id="primeiroFilho"></section>
-      <section id="elementoOndeVoceEsta">
-        <section id="primeiroFilhoDoFilho"></section>
-        <section id="segundoEUltimoFilhoDoFilho"></section>
-      </section>
-      Atenção!
-      <section id="terceiroFilho"></section>
-      <section id="quartoEUltimoFilho"></section>
-    </section>
-  </main>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+   
+    // -------------------------Exercicio foguete - Buscando Elementos---------------------------------------------- // 
+
+    <main id="paiDoPai">
+    
+        <section id="pai">
+          <section id="primeiroFilho"></section>
+          <section id="elementoOndeVoceEsta">
+            <section id="primeiroFilhoDoFilho"></section>
+            <section id="segundoEUltimoFilhoDoFilho"></section>
+          </section>
+          Atenção!
+          <section id="terceiroFilho"></section>
+          <section id="quartoEUltimoFilho"></section>
+        </section>
+
+        <script>
+       // ---- Acesse o elementoOndeVoceEsta -------------//
+       document.getElementById ('elementoOndeVoceEsta');
+       //-------------------------------------------------//
+
+       //-----Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele-----//
+       document.getElementById ('elementoOndeVoceEsta').parentNode.style.color = 'darkblue'
+       //---------------------------------------------------------------------------------//
+
+       //------------Acesse o primeiroFilhoDoFilho e adicione um texto a ele-----------------------------------//
+       document.getElementById ('elementoOndeVoceEsta').firstElementChild.innerText = 'Billie Eilish é muito bom'
+       //------------------------------------------------------------------------------------------------------//
+
+       //-----Acesse o primeiroFilho a partir de pai-----------//
+       document.getElementById ('pai').firstElementChild
+       //-----------------------------------------------------//
+
+       //-----Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta----//
+       document.getElementById('elementoOndeVoceEsta').previousElementSibling
+       //-----------------------------------------------------------------------//
+
+       //------Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta---//
+       document.getElementById('elementoOndeVoceEsta').nextSibling
+       //-----------------------------------------------------------------------//
+
+       //------Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta---//
+       document.getElementById('elementoOndeVoceEsta').nextElementSibling
+       //---------------------------------------------------------------------//
+       
+       //-----------Agora acesse o terceiroFilho a partir de pai-------------//
+       document.getElementById('pai').lastElementChild.previousElementSibling
+       //-------------------------------------------------------------------//
+        
+        </script>
+      </main>
+
+</body>
+</html>
+
+
+
+
