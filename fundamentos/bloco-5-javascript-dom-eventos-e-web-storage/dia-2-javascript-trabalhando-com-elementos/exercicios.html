@@ -75,6 +75,36 @@
      creatP.innerText = 'Billie Eilish é muito bom';
      creatSection.appendChild(creatP);
 
+     let creatSection2 = document.createElement ('section');
+     creatSection2.className = 'left-content';
+     creatMain.appendChild(creatSection2);
+
+     let creatSection3 = document.createElement ('section');
+     creatSection3.className = 'right-content';
+     creatMain.appendChild(creatSection3);
+
+     let creatImg = document.createElement ('img');
+     creatImg.className = 'small-image';
+     creatImg.src = 'https://picsum.photos/200'
+     creatSection2.appendChild(creatImg);
+
+     let creatUl = document.createElement ('ul');
+     creatUl.id = 'list';
+     creatSection3.appendChild(creatUl);
+
+      let numbers = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+     
+     for (let index = 0; index < numbers.length; index += 1) {
+      let creatLi = document.createElement ('li')
+      creatLi.innerHTML = numbers[index];
+      creatUl.appendChild(creatLi)
+     }
+
+     for (let index = 1; index <= 3; index += 1) {
+      let creatH3 =  document.createElement('h3');
+      creatH3.innerHTML = 'When we fall asleep where do we go?' 
+      creatMain.appendChild(creatH3)
+     }
 
     </script>
   </body>
