@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <header>
+        <h1>TrybeTrip</h1>
+    </header>
+
+    <main>
+        <form action="" method="get">
+        <fieldset>
+            <legend>Formulario de Viagem</legend>
+            <section>
+                <label for="input-name"></label> Nome: 
+                <input type="text" name="nome" id="input-name" maxlength="40" minlength="10">
+            </section>
+
+            <section>
+                <label for="input-email"></label> Email:
+                <input type="email"  name="email" id="input-email"  maxlength="40" minlength="10" >
+            </section>
+
+            <section>
+                <p>Destino Preferido</p>
+                <input type="radio" name="destino" id="destino-1" value="cd">
+                <label for="destino-1"></label> Cidade
+
+                <input type="radio" name="destino" id="destino-2" value="cp">
+                <label for="destino-2"></label> Campo
+                
+                <input type="radio" name="destino" id="destino-3" value="pr">
+                <label for="destino-3"></label> Praia
+                
+                <input type="radio" name="destino" id="destino-4"  value="mt">
+                <label for="destino-4"></label> Montanhas
+            </section>
+           <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+          <textarea name="" id="" cols="60" rows="10" placeholder="Digite sua resposta aqui"></textarea>
+
+           <section>
+          <label for="input-data"></label>
+          <p>Qual a melhor data para realizar a sua viagem?</p>
+          <input type="date" name="" id="input-data">
+        </section>
+
+        <section>
+            <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+            
+            <input type="checkbox" name="novidades" id="novidades-trybe" value="sim">
+            <label for="novidades-trybe"></label> Sim
+
+            
+            <input type="checkbox" name="novidades" id="novidades-trybe2" value="nao">
+            <label for="novidades-trybe2"></label> Nao
+        </section>
+
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
