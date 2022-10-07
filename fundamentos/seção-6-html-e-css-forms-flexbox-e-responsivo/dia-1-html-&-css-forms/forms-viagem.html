@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>TrybeTrip</h1>
+        <h1>TrybeTrip -  Formulário de participação</h1>
     </header>
 
     <main>
@@ -40,7 +40,7 @@
                 <label for="destino-4">Montanhas</label> 
             </section>
            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-          <textarea name="" id="" cols="60" rows="10" placeholder="Digite sua resposta aqui"></textarea>
+          <textarea name="" id="text-area" cols="60" rows="10" placeholder="Digite sua resposta aqui"></textarea>
 
            <section>
           <label for="input-data"></label>
@@ -61,14 +61,14 @@
 
        <section>
         <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
-        <input type="radio" name="termos" id="input-termos1" value="concordo">
+        <input type="radio" name="termos" id="input-termos1" value="concordo" required>
         <label for="input-termos1">Concordo</label> 
 
         <input type="radio" name="termos" id="input-termos2" value="Nconcordo">
         <label for="input-termos2">Não concordo</label> 
        </section>
 
-       <button type="submit" id="submit-button">Enviar</button>
+       <button type="submit" id="submit-button" disabled>Enviar</button>
        <button type="reset">Limpar</button>
 
         </fieldset>
