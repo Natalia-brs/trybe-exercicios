@@ -7,3 +7,16 @@ function stopPattern (e) {
  e.preventDefault()
 }
 
+
+function selected () {
+    const getImput = document.getElementById('input-termos1');
+    getImput.addEventListener('click', function(e){
+        getImput.classList.add('selected')
+        e.target
+    })
+
+    console.log(getImput)
+
+}
+
+selected();
