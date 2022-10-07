@@ -40,10 +40,10 @@ function validateChar () {
  const nameError = inputName > 40 || inputName < 10
 
 
- const inputEmail = document.getElementById('input-email');
+ const inputEmail = document.getElementById('input-email').value.length;
  const emailError = inputEmail > 40 || inputEmail < 10
 
- const textArea = document.getElementById('text-area');
+ const textArea = document.getElementById('text-area').value.length
  const textError = textArea > 500
   
  if (nameError || emailError || textError) {

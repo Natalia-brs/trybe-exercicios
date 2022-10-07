@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>TrybeTrip</title>
 </head>
 <body>
     <header>
-        <h1>TrybeTrip -  Formulário de participação</h1>
+        <h1 id="title">TrybeTrip -  Formulário de participação</h1>
     </header>
 
     <main>
         <form action="" method="get">
-        <fieldset>
+        <fieldset class="fieldset">
             <legend>Formulario de Viagem</legend>
             <section>
                 <label for="input-name">Nome</label> 
-                <input type="text" name="nome" id="input-name" maxlength="40" minlength="10">
+                <input type="text" name="nome" id="input-name" maxlength="40" minlength="10" placeholder="Digite seu nome" class="style" autocomplete="off">
             </section>
 
             <section>
                 <label for="input-email">Email</label> 
-                <input type="email"  name="email" id="input-email"  maxlength="40" minlength="10" >
+                <input type="email"  name="email" id="input-email"  maxlength="40" minlength="10" placeholder="Digite seu email" autocomplete="off" class="style">
             </section>
 
             <section>
@@ -40,18 +41,18 @@
                 <label for="destino-4">Montanhas</label> 
             </section>
            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-          <textarea name="" id="text-area" cols="60" rows="10" placeholder="Digite sua resposta aqui"></textarea>
+          <textarea name="" id="text-area" cols="60" rows="10" placeholder="Digite sua resposta aqui" class="style"></textarea>
 
            <section>
           <label for="input-data"></label>
           <p>Qual a melhor data para realizar a sua viagem?</p>
-          <input type="date" name="" id="input-data">
+          <input type="date" name="" id="input-data" required>
         </section>
 
         <section>
             <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
             
-            <input type="radio" name="novidades" id="novidades-trybe" value="sim">
+            <input type="radio" name="novidades" id="novidades-trybe" value="sim" >
             <label for="novidades-trybe">Sim</label> 
 
             
