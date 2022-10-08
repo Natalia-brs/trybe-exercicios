@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utilizando framework CSS</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <title>Utilizando framework CSS - npm install</title>
     
 </head>
 <body>
@@ -17,14 +18,14 @@
         <form action="" method="get">
         <fieldset class="fieldset">
             <legend id="legend">Formulario de Viagem</legend>
-            <section>
-                <label for="input-name">Nome</label> 
-                <input type="text" name="nome" id="input-name" maxlength="40" minlength="10" placeholder="Digite seu nome" class="style" autocomplete="off">
+            <section >
+                <label for="input-name" >Nome</label> 
+                <input class="form-control" type="text" name="nome" id="input-name" maxlength="40" minlength="10" placeholder="Digite seu nome" class="style" autocomplete="off">
             </section>
 
             <section>
                 <label for="input-email">Email</label> 
-                <input type="email"  name="email" id="input-email"  maxlength="40" minlength="10" placeholder="Digite seu email" autocomplete="off" class="style">
+                <input class="form-control" type="email"  name="email" id="input-email"  maxlength="40" minlength="10" placeholder="Digite seu email" autocomplete="off" class="style">
             </section>
 
             <section>
@@ -42,7 +43,7 @@
                 <label for="destino-4">Montanhas</label> 
             </section>
            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-          <textarea name="" id="text-area" cols="60" rows="10" placeholder="Digite sua resposta aqui" class="style"></textarea>
+          <textarea class="form-control"  name="" id="text-area" cols="60" rows="10" placeholder="Digite sua resposta aqui" class="style"></textarea>
 
         <section>
           <label for="input-data"></label>
@@ -63,19 +64,19 @@
 
        <section>
         <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
-        <input type="radio" name="termos" id="input-termos1" value="concordo" required>
+        <input type="radio" name="termos" id="input-termos1" value="concordo"   required>
         <label for="input-termos1">Concordo</label> 
 
         <input type="radio" name="termos" id="input-termos2" value="Nconcordo">
         <label for="input-termos2">Não concordo</label> 
        </section>
 
-       <button type="submit" id="submit-button" disabled>Enviar</button>
-       <button type="reset">Limpar</button>
+       <button type="submit" id="submit-button" disabled class="btn btn-outline-success" >Enviar</button>
+       <button type="reset" class="btn btn-outline-danger">Limpar</button>
 
         </fieldset>
     </form>
     </main>
-    
+
 </body>
 </html>
