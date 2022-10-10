@@ -22,9 +22,20 @@
 
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    background-color: black;
+    background-color:#323333;
     color: azure;
     align-items: center;
+}
+
+.text-top{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
