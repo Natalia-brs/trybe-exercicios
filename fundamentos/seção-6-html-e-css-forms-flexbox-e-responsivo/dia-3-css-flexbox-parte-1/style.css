@@ -5,15 +5,16 @@
     font-family: monospace;
 }
 
-
-
-.gallery-img {
-    width: 200px;
+img {
+    max-width: 60%;
 }
+
 
 .social-img {
-    width: 25px;
+ width: 50px;
 }
+
+
 
 .header-img {
     width: 70px;
