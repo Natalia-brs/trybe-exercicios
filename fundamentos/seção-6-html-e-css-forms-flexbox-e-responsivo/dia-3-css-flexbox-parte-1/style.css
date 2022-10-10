@@ -1,7 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+
 .gallery-img {
     width: 200px;
 }
 
 .social-img {
     width: 25px;
+}
+
+.header-img {
+    width: 70px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: azure;
+    align-items: center;
 }
