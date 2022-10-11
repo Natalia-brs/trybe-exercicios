@@ -34,13 +34,16 @@
     display: flex;
     border: 1px solid red;
     flex-basis: 500px;
+    flex-grow: 1;
   }
   
   .menu-container ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    border: 1px solid blue
+    border: 1px solid blue;
+    align-self: center;
+    
   }
   
   .menu-container li {
