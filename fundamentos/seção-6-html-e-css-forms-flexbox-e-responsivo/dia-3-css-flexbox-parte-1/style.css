@@ -39,7 +39,7 @@
 
 }
 
-@-webkit-keyframes changeColor {
+@keyframes changeColor {
     0%   {color: #33658A;}
     25%  {color: #86BBD8;}
     50%  {color: #758E4F;}
