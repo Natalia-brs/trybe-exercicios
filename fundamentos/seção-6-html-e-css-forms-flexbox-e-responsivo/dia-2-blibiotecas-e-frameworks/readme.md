@@ -1,0 +1,3 @@
+ - Aprendendo a fazer a importação de bibliotecas para o JS;
+ - Conhecendo o bootstrap, framework css;
+- Primeiros contatos com o bootstrap.
