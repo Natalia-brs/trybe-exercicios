@@ -11,15 +11,17 @@
   }
   
   body {
-  
+    font-size: 15px;
+    font-family: monospace;
+    margin: 4%;
   }
   
   article {
-  
+   
   }
   
   h1 {
-  
+    font-size: 1em;
   }
   
   h2 {
@@ -27,11 +29,11 @@
   }
   
   img {
-      max-width: 100%;
+    max-width: 100%;
   }
   
   main {
-  
+   
   }
   
   section {
