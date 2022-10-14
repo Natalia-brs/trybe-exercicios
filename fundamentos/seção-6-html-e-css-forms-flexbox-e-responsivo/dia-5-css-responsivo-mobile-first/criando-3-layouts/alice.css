@@ -1,7 +1,30 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
   }
+
+
+  .nav {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 50px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  img {
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
