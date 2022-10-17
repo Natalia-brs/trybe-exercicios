@@ -45,7 +45,7 @@ function validateChar () {
 
  const textArea = document.getElementById('text-area').value.length
  const textError = textArea > 500
-  
+
  if (nameError || emailError || textError) {
     return false
  }
@@ -53,4 +53,19 @@ function validateChar () {
     return true
  }
 
+}
+
+var textarea = document.querySelector('textarea');
+var info = document.getElementById('carResTxtVoce');
+var limite = 400;
+textarea.addEventListener('keyup', verificar);
+
+function verificar() {
+   var qtdcaracteres = this.value.length;
+   var restantes = limite - qtdcaracteres;
+   if (restantes < 1) {
+       this.value = this.value.slice(0, limite);
+       return info.innerHTML = 0;
+   }
+   info.innerHTML = restantes;
 }

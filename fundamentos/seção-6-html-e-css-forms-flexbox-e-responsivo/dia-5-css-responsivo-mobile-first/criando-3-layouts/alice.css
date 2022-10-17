@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgba(63, 136, 197, 0.9);
+}
+ 
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 50px;
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  box-shadow: 1px 1px 10px black;
+}
+
+header img {
+  width: 80px;
+  opacity: 0.9;
+}
+
+header img:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.aside-container {
+  background-image: url(./images/hero.jpg);
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+
+.aside-one > h2 {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.aside-two > h2 {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 3em;
+}
+
+li:hover {
+  color: aquamarine;
+}
+
+li {
+  font-size: 2em;
+  padding: 3px;
+  color: wheat;
+  list-style: none;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.content {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  background-color: #e7e5df;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+}
+  
+.main-content p {
+  margin-left: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content > h1 {
+  text-align: center;
+}
+
+footer {
+  width: 80%;
+  background-color: black;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: wheat;
+  padding: 10px; 
+}
+
+
+
+
