@@ -110,25 +110,5 @@ footer {
 }
 
 
-@media screen and (max-width: 420px) {
- .nav p {
-    display: none;
- }
 
- .nav a {
-    display: none;
- }
 
- .nav  img {
-   width: 100px;
- }
-
- .aside-one {
-    font-size: 1.2em;
- }
-
- .aside-two {
-    display: none;
- }
-
-}

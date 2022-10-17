@@ -10,7 +10,7 @@
   width: 50%;
   -webkit-transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
-    
+
 }
 
 .gallery-img:hover {
@@ -19,7 +19,7 @@
 }
  .cards > h4:hover{
   color: firebrick;
-   
+
  }
 
 .social-img {
@@ -60,11 +60,11 @@
   font-family: monospace;
   font-size: 20px;
 }
- 
+
 .main {
   display: flex;
   flex-wrap: wrap;
-  width: 60%; 
+  width: 60%;
   margin-left: 20%;
   justify-content: space-between;
 }
