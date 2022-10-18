@@ -1,4 +1,4 @@
-//------------------------Exercicio 4------------------------------------//
+//------------------------Exercicio 4 parte 1------------------------------------//
 
 //Função 1: Escreva uma função que substitua a letra ‘x’ em uma frase.
 //O nome da função deverá ser substituaX;
@@ -22,6 +22,27 @@ console.log (substituaX('bebeto'));
 //utilizando o metodo split para transformar  a frase em um array e poder substituir o index onde está o 'x'
 //após isso transformar novamente em string utilizando o join.
 
-const minhasSkills = () => {
-    
+//---------------------------Exercicio 4 parte 2-----------------------------//
+
+//Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string;
+//A função deverá receber o retorno da Função 1 - substituaX por parâmetro;
+//Declare dentro da função uma variável com o nome skills, do tipo const;
+//A variável skills deverá ser um array contendo três strings com tecnologias que você já aprendeu;
+//Crie uma varável do tipo let e concatene o valor retornado da Função 1 - substituaX (utilize template literals), a frase 'Minhas três principais habilidades são:' e o valor da variável skills.
+
+const minhasSkills = (func) => {
+ const skills = ['CSS', 'JavaScript', 'HTML'];
+ let result = `
+ ${func}
+
+ Minhas três principais habilidades são:`
+
+ skills.forEach((skill) => {
+  result = `${result}
+  - ${skill}`;
+ })
+ return result
 }
+console.log(minhasSkills(substituaX('bebeto')));
+
+//----------------------------------------------------------------------------------//
