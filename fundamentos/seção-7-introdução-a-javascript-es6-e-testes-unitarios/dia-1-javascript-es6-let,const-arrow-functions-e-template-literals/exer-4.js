@@ -43,6 +43,6 @@ const minhasSkills = (func) => {
  })
  return result
 }
-console.log(minhasSkills(substituaX('bebeto')));
+console.log(minhasSkills(substituaX('Natália')));
 
 //----------------------------------------------------------------------------------//
