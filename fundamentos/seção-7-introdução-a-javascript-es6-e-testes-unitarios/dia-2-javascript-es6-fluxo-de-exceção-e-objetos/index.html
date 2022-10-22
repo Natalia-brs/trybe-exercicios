@@ -14,6 +14,7 @@
   <input type='text' id='value2'>
   <button id='button'>Somar</button>
   <p id='result'></p>
+ Exercicios/7.2
     <script>
       function verifyIsNumber(value1, value2) {
         if (!value1 || !value2) {
@@ -44,3 +45,21 @@
     </script>
   <!-- ... -->
 </html>
+
+  <script>
+    function sum() {
+      const value1 = document.getElementById('value1').value;
+      const value2 = document.getElementById('value2').value;
+      const result = Number(value1) + Number(value2);
+      document.getElementById('result').innerHTML = `Resultado: ${result}`;
+      document.getElementById('value1').value = '';
+      document.getElementById('value2').value = '';
+    }
+    window.onload = () => {
+      const button = document.getElementById('button');
+      button.addEventListener('click', sum);
+    }
+  </script>
+</body>
+</html> 
+main
