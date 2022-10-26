@@ -93,10 +93,35 @@ const books = [
 //---------------------------- Parte 3 ----------------------------------------------------------//
 // Crie um array de objetos que possuem genero ficção cientifica ou fantasia.
 
-function fantasyOrScienceFiction() {
-    return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
-  }
+// function fantasyOrScienceFiction() {
+//     return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+//   }
 
-  console.log(fantasyOrScienceFiction());
+//   console.log(fantasyOrScienceFiction());
 
 //------------------------------------------------------------------------------------------------//
+
+//-------------------------- Parte 4 --------------------------------------------------------------//
+// Array formado pelos livros com mais de 60 anos desde a publicação e ordenado do livro mais velho ao mais novo.
+
+// function oldBooksOrdered() {
+//     return books.filter((book) =>  2022 - book.releaseYear  >= 60) 
+
+//     .sort((book1, book2) => book2.releaseYear - book1.releaseYear);
+//   }
+//    console.log(oldBooksOrdered());
+
+//--------------------------------------------------------------------------------------------------//
+
+//------------------------- Parte 5 ---------------------------------------------------------------//
+//Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+
+// function fantasyOrScienceFictionAuthors() {
+//     const bookGenre = ['Fantasia', 'Ficção Científica'];
+//     return books
+//     .filter((book) => bookGenre.includes(book.genre))
+//     .map((book) => book.author.name).sort();
+// }
+//   console.log(fantasyOrScienceFictionAuthors());
+
+//-----------------------------------------------------------------------------------------------------//
