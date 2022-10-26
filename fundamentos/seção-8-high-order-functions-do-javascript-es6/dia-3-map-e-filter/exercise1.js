@@ -65,10 +65,10 @@ const books = [
 //-------------------------------- Parte 1 ---------------------------------------------//
 //Retorne do objeto as informaçoes no formato nome do livre - genero do livro - nome do autor/a.
 
-//   function formatedBookNames() {
-//     return books.map((book) => ` ${book.name} - ${book.genre} - ${book.author.name}`);
-//   }
-//   console.log(formatedBookNames());
+  function formatedBookNames() {
+    return books.map((book) => ` ${book.name} - ${book.genre} - ${book.author.name}`);
+  }
+  console.log(formatedBookNames());
 
 //--------------------------------------------------------------------------------------------//
 
@@ -76,73 +76,74 @@ const books = [
 //Retorne um array de objetos com o nome do autor e a sua idade quando seu livro foi lançado e ordene
 // de forma crescente
 
-// function nameAndAge() {
-//     return books.map((book)=> {
-//        const obj = {
-//             author: book.author.name,
-//             age: book.releaseYear - book.author.birthYear
-//         }
-//         return obj 
-//     })
-//     .sort((author1, author2) => author1.age - author2.age);  
-//   }
-//    console.log(nameAndAge());
+function nameAndAge() {
+    return books.map((book)=> {
+       const obj = {
+            author: book.author.name,
+            age: book.releaseYear - book.author.birthYear
+        }
+        return obj 
+    })
+    .sort((author1, author2) => author1.age - author2.age);  
+  }
+  console.log(nameAndAge());
 
 //-----------------------------------------------------------------------------------------------//
 
 //---------------------------- Parte 3 ----------------------------------------------------------//
 // Crie um array de objetos que possuem genero ficção cientifica ou fantasia.
 
-// function fantasyOrScienceFiction() {
-//     return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
-//   }
-
-//   console.log(fantasyOrScienceFiction());
+function fantasyOrScienceFiction() {
+    return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+  }
+  console.log(fantasyOrScienceFiction());
 
 //------------------------------------------------------------------------------------------------//
 
 //-------------------------- Parte 4 --------------------------------------------------------------//
 // Array formado pelos livros com mais de 60 anos desde a publicação e ordenado do livro mais velho ao mais novo.
 
-// function oldBooksOrdered() {
-//     return books.filter((book) =>  2022 - book.releaseYear  >= 60) 
-
-//     .sort((book1, book2) => book2.releaseYear - book1.releaseYear);
-//   }
-//    console.log(oldBooksOrdered());
+function oldBooksOrdered() {
+    return books.filter((book) =>  2022 - book.releaseYear  >= 60) 
+    .sort((book1, book2) => book2.releaseYear - book1.releaseYear);
+  }
+  console.log(oldBooksOrdered());
 
 //--------------------------------------------------------------------------------------------------//
 
 //------------------------- Parte 5 ---------------------------------------------------------------//
 //Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
-// function fantasyOrScienceFictionAuthors() {
-//     const bookGenre = ['Fantasia', 'Ficção Científica'];
-//     return books
-//     .filter((book) => bookGenre.includes(book.genre))
-//     .map((book) => book.author.name).sort();
-// }
-//   console.log(fantasyOrScienceFictionAuthors());
+function fantasyOrScienceFictionAuthors() {
+    const bookGenre = ['Fantasia', 'Ficção Científica'];
+    return books
+    .filter((book) => bookGenre.includes(book.genre))
+    .map((book) => book.author.name).sort();
+   }
+   console.log(fantasyOrScienceFictionAuthors());
 
 //-----------------------------------------------------------------------------------------------------//
 
 //----------------------------------- Parte 6 ---------------------------------------------------------//
 //Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-// function oldBooks() {
-//     return books
-//     .filter((book) => 2022 - book.releaseYear  >= 60)
-//     .map((book2)=> book2.name)
-//   }
+function oldBooks() {
+    return books
+    .filter((book) => 2022 - book.releaseYear  >= 60)
+    .map((book2)=> book2.name);
+  }
+  console.log(oldBooks());
 
-//  console.log(oldBooks());
 //-----------------------------------------------------------------------------------------------------//
 
 //--------------------------------- Parte 7 -----------------------------------------------------------//
 //Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
 function authorWith3DotsOnName() {
-    // escreva seu código aqui
+    return books
+    .filter((book) => book.author.name.includes(('J. R. R.')))
+    .map((book2) => book2.name);
   }
-console.log(authorWith3DotsOnName())
+  console.log(authorWith3DotsOnName());
+
 //-------------------------------------------------------------------------------------------------------//
