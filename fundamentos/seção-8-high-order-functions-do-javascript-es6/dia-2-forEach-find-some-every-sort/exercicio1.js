@@ -61,6 +61,8 @@ const books = [
     },
   ];
   
+//---------------------------- Parte 1 -------------------------------------------//
+//Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947
 
   function authorBornIn1947(ano) {
     return books.find((book) => book.author.birthYear === ano).author.name
@@ -68,14 +70,49 @@ const books = [
 
  console.log(authorBornIn1947(1947));
 
- function smallerName() {
-    let nameBook;
-    books.forEach((book) => {
-        if(!nameBook || book.name.length < nameBook.length) {
-            nameBook = book.name;
-        }
-    } )
-    return nameBook;
-  }
+//-------------------------------------------------------------------------------//
 
-  console.log(smallerName())
+
+//  function smallerName() {
+//     let nameBook;
+//     books.forEach((book) => {
+//         if(!nameBook || book.name.length < nameBook.length) {
+//             nameBook = book.name;
+//         }
+//     } )
+//     return nameBook;
+//   }
+
+//   console.log(smallerName())
+
+
+//   function getNamedBook() {
+//      return books.find((title) => title.name.length === 26)
+//   }
+//   console.log(getNamedBook());
+
+//   function booksOrderedByReleaseYearDesc() {
+//      return books.sort((releaseA, releaseB) => releaseB.releaseYear - releaseA.releaseYear);
+//   }
+//   console.log(booksOrderedByReleaseYearDesc());
+
+// function everyoneWasBornOnSecXX() {
+//     return books.every((book) => book.author.birthYear > 1900 && book.author.birthYear <= 2000)
+// }
+//  console.log(everyoneWasBornOnSecXX())
+  
+
+// function someBookWasReleaseOnThe80s() {
+//     return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989)
+//   }
+//  console.log(someBookWasReleaseOnThe80s());
+
+
+function authorUnique() {
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+}
+
+console.log(authorUnique())
