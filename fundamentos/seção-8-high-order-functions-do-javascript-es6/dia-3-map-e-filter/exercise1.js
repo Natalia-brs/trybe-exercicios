@@ -65,9 +65,27 @@ const books = [
 //-------------------------------- Parte 1 ---------------------------------------------//
 //Retorne do objeto as informaçoes no formato nome do livre - genero do livro - nome do autor/a.
 
-  function formatedBookNames() {
-    return books.map((book) => ` ${book.name} - ${book.genre} - ${book.author.name}`);
-  }
-  console.log(formatedBookNames());
+//   function formatedBookNames() {
+//     return books.map((book) => ` ${book.name} - ${book.genre} - ${book.author.name}`);
+//   }
+//   console.log(formatedBookNames());
 
 //--------------------------------------------------------------------------------------------//
+
+//-------------------------------- Parte 2 ---------------------------------------------------//
+//Retorne um array de objetos com o nome do autor e a sua idade quando seu livro foi lançado e ordene
+// de forma crescente
+
+// function nameAndAge() {
+//     return books.map((book)=> {
+//        const obj = {
+//             author: book.author.name,
+//             age: book.releaseYear - book.author.birthYear
+//         }
+//         return obj 
+//     })
+//     .sort((author1, author2) => author1.age - author2.age);  
+//   }
+//    console.log(nameAndAge());
+
+//-----------------------------------------------------------------------------------------------//
