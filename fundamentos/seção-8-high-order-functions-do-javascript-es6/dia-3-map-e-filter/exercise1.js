@@ -61,4 +61,13 @@ const books = [
     },
   ];
   
-  // Adicione o código do exercício aqui:
+
+//-------------------------------- Parte 1 ---------------------------------------------//
+//Retorne do objeto as informaçoes no formato nome do livre - genero do livro - nome do autor/a.
+
+  function formatedBookNames() {
+    return books.map((book) => ` ${book.name} - ${book.genre} - ${book.author.name}`);
+  }
+  console.log(formatedBookNames());
+
+//--------------------------------------------------------------------------------------------//
