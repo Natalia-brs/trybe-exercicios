@@ -89,3 +89,14 @@ const books = [
 //    console.log(nameAndAge());
 
 //-----------------------------------------------------------------------------------------------//
+
+//---------------------------- Parte 3 ----------------------------------------------------------//
+// Crie um array de objetos que possuem genero ficção cientifica ou fantasia.
+
+function fantasyOrScienceFiction() {
+    return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+  }
+
+  console.log(fantasyOrScienceFiction());
+
+//------------------------------------------------------------------------------------------------//
