@@ -1,0 +1,5 @@
+// includes() --> O método includes() determina se um array contém um determinado elemento, retornando true ou false apropriadamente;
+// concat()  -->  Concatena dois ou mais arrays retornando um novo array contendo os dois arrays que foram concatenados;
+// endsWith() --> O método endsWith() indica se uma string termina com determinados caracteres, retornando true ou false;
+//startsWith()  --> O método startsWith() determina se uma string começa com os caracteres especificados, retornando true ou false;
+//split()  -->   método split() divide uma string em um array de strings de acordo com algum separador; por exemplo, o espaço em branco ou algo determinado por uma expressão regular.
