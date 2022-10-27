@@ -40,3 +40,19 @@ const states = [
 //   city: "Manaus",
 //   region: "Norte"
 // }
+
+const cities2 = () => {
+    return cities.map((city) => {
+     const getState = states.find((state) => state.short === city.state)
+     const getRegion = regions.find((regions) => regions.short === city.region)
+      const meuObj = {
+        state: getState.name,
+        city: city.name,
+        region: getRegion.name,
+     } 
+     return meuObj;
+    })
+
+  }
+ console.log(cities2());
+ 
