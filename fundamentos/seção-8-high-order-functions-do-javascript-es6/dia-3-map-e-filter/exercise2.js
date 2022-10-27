@@ -33,3 +33,10 @@ const states = [
     { state: 'MG', name: 'João Pinheiro', region: 'SE'},
     { state: 'MT', name: 'Cuiabá', region: 'CW'},
   ];
+
+  // Transforme o array de objetos cities em um array de objetos no seguinte formato:
+// {
+//   state: "Amazonas",
+//   city: "Manaus",
+//   region: "Norte"
+// }
