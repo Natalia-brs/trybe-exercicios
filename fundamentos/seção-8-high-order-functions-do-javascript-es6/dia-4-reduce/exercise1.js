@@ -92,18 +92,69 @@ const books = [
 
 //----------------------------------------------------------------------//
 
-function averageAge() {
-    const totalBooks = books.length;
-    return books.reduce((sum, book) => sum + (book.releaseYear - book.author.birthYear), 0) / totalBooks
-  }
-  console.log(averageAge());
+// function averageAge() {
+//     const totalBooks = books.length;
+//     return books.reduce((sum, book) => sum + (book.releaseYear - book.author.birthYear), 0) / totalBooks
+//   }
+//   console.log(averageAge());
 
 //----------------------------------------------------------------------//
 
 //------------------Encontre o livro com o maior nome--------------------//
 
-function longestNamedBook() {
-    // escreva seu código aqui
-  }
+// function longestNamedBook() {
+//     return books.reduce((acc, book) => {
+//         if(acc.name.length > book.name.length ) {
+//           return acc
+//         }
+//         return book
+//     })
+//   }
+//   console.log((longestNamedBook()))
 
 //------------------------------------------------------------------------//
+
+//-----------------------------------------------------------------------//
+//Dado o array de nomes, utilize o reduce para 
+//retornar a quantidade de vezes em que aparece a letra a, maiúscula ou minúscula.
+
+// const names = [
+//     'Aanemarie', 'Adervandes', 'Akifusa',
+//     'Abegildo', 'Adicellia', 'Aladonata',
+//     'Abeladerco', 'Adieidy', 'Alarucha',
+//   ];
+
+
+// function containsA() {
+//     let count = 0;
+//     names.forEach((name) => {
+//         const splitNames = name.split('')
+//         count += splitNames.reduce((letterA, curr) => {
+//          if(curr.toLocaleLowerCase() === 'a') {
+//             return letterA +1
+//          }
+//          return letterA;
+//         }, 0)
+//     })
+//     return count;
+//   }
+
+//   console.log(containsA())
+
+//---------------------------------------------------------------------//
+
+//----------------------------------------------------------------------//
+//
+
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+function studentAverage() {
+  // escreva seu código aqui
+}
+
+const expected = [
+  { name: 'Pedro Henrique', average: 7.8 },
+  { name: 'Miguel', average: 9.2 },
+  { name: 'Maria Clara', average: 8.8 },
+];
