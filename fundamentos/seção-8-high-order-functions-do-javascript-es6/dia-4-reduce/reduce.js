@@ -125,19 +125,31 @@ const estudantes = [
     },
   ];
   
-  const getBestClass = (acc, materia) => {
-    if (acc.nota > materia.nota) return acc;
-    return materia;
-  };
+  // const getBestClass = (acc, materia) => {
+  //   if (acc.nota > materia.nota) return acc;
+  //   return materia;
+  // };
   
-  const reportBetter = (students) => students.map((student) => ({
-    name: student.nome,
-    materia: student.materias.reduce(getBestClass).name,
-  }));
+  // const reportBetter = (students) => students.map((student) => ({
+  //   name: student.nome,
+  //   materia: student.materias.reduce(getBestClass).name,
+  // }));
   
-  console.log(reportBetter(estudantes));
+  // console.log(reportBetter(estudantes));
+
 
   
 //---------------------------------------------------------------------------//
 
+const media = (alunos) => {
+  return alunos.map((estudante) => {
+    const obj = {
+      nome: estudante.nome,
+      media: estudante.materias.reduce((acc, curr) => acc + curr).nota
+    }
+    return obj
+  })
+
+}
+console.log(media(estudantes));
 
