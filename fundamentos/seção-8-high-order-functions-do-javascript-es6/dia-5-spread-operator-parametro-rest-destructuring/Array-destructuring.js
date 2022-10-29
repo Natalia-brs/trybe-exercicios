@@ -1,3 +1,7 @@
+//Podemos desestruturar arrays usando a notação para array destructuring, que serve para acessar valores de um array e atribuí-los a variáveis. 
+
+//------------------------------------------------------------------------------------//
+
 const saudacoes = ['Olá', (saudacao) => console.log(saudacao)];
 
 // saudacoes[1](saudacoes[0]); // Olá
@@ -6,6 +10,8 @@ const saudacoes = ['Olá', (saudacao) => console.log(saudacao)];
 
 const [greeting] = saudacoes;
 console.log(greeting);
+
+//--------------------------------------------------------------------------------------//
 
 //--------------- A seguir, temos alguns valores que estão descritos em variáveis incoerentes, ---//
 //---------------- através da desestruturação de arrays, corrija os valores das variáveis. ---//
