@@ -46,10 +46,10 @@ const alex = {
   console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
   console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
 
-  //------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------//
 
-  //------ Escreva uma função filterPeople que, dada uma lista de pessoas, retorne todas as pessoas australianas que nasceram no século 20--//
-  //Exercicio 4
+//------ Escreva uma função filterPeople que, dada uma lista de pessoas, retorne todas as pessoas australianas que nasceram no século 20--//
+//Exercicio 4
 
   const people = [
     {
@@ -86,12 +86,49 @@ const alex = {
   }
  console.log(filterPeople(people))
 
- //------------------------------------------------------------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------------------------------------------------------------//
 
- //----------------------- Exercicio 5 - Trocar posição de elementos do array ------------------------------------------//
+//----------------------- Exercicio 5 - Trocar posição de elementos do array ------------------------------------------//
+// array destructuring.
 
  const myList = [5, 2, 3];
  const swap = ([first, second, third]) => [third, second, first];
  console.log(swap(myList))
 
- //----------------------------------------------------------------------------------------------------------------------//
+//----------------------------------------------------------------------------------------------------------------------//
+
+//----------------------- Exercicio 6 - transforme o array em objeto -------------------------------------------------//
+//Utilizando array destructuring e abbreviation object shorthand.
+
+const palio = ['Palio', 'Fiat', 2019];
+const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
+const chiron = ['Chiron', 'Bugatti', 2016];
+
+const toObject = ([name, brand, year]) => ({name, brand, year});
+ console.log((toObject(shelbyCobra)));
+
+ //-------------------------------------------------------------------------------------------------------------------//
+
+//------------------------- Exercicio 7 ----------------------------------------------------------------------------//
+
+const ships = [
+  {
+    name: 'Titanic',
+    length: 269.1,
+    measurementUnit: 'meters',
+  },
+  {
+    name: 'Queen Mary 2',
+    length: 1132,
+    measurementUnit: 'feet',
+  },
+  {
+    name: 'Yamato',
+    length: 256,
+    measurementUnit: 'meters',
+  },
+];
+const shipLength = ({ name, length, measurementUnit }) => `${name} is ${length} ${measurementUnit} long`;
+
+//-------------------------------------------------------------------------------------------------------------------------//
+
