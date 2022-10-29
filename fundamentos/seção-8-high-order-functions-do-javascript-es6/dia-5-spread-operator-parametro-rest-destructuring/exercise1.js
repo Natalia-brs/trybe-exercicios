@@ -50,7 +50,7 @@ const alex = {
 
   //------ Escreva uma função filterPeople que, dada uma lista de pessoas, retorne todas as pessoas australianas que nasceram no século 20--//
   //Exercicio 4
-  
+
   const people = [
     {
       name: 'Nicole',
@@ -87,3 +87,11 @@ const alex = {
  console.log(filterPeople(people))
 
  //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+ //----------------------- Exercicio 5 - Trocar posição de elementos do array ------------------------------------------//
+
+ const myList = [5, 2, 3];
+ const swap = ([first, second, third]) => [third, second, first];
+ console.log(swap(myList))
+
+ //----------------------------------------------------------------------------------------------------------------------//
