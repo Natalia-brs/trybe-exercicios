@@ -132,3 +132,15 @@ const shipLength = ({ name, length, measurementUnit }) => `${name} is ${length} 
 
 //-------------------------------------------------------------------------------------------------------------------------//
 
+//---------------------- Exercicio 8 - Usando default params -------------------------------------------------------//
+
+// escreva greet abaixo
+const greet = (name, greet = 'Hi') => `${greet} ${name}`
+
+// Retornos esperados:
+console.log(greet('John')); // 'Hi John'
+console.log(greet('John', 'Good morning')); // 'Good morning John'
+console.log(greet('Isabela', 'Oi')); // 'Oi Isabela'
+
+//--------------------------------------------------------------------------------------------------------------------//
+
