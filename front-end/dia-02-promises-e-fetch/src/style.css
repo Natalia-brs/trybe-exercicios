@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(153, 153, 195, 0.3);
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(96, 73, 90, 0.3);
+    border-radius: 10%;
+    box-shadow: 2px 3px 3px 3px rgba(63, 136, 197, 0.6)
+}
+
+#image {
+    width: 350px;
+    box-shadow: 2px 3px 3px 3px rgba(63, 136, 197, 0.6)
+}
+
+#button {
+    border-radius: 10%;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+    font-family: monospace;
+    background-color: rgb(204, 41, 54)
+}
+
+#name {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: aliceblue;
+}
